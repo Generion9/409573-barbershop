@@ -35,7 +35,7 @@
     	</div>
     </header>
     <main class="container">
-    	<h1>средства для ухода</h1>
+    	<h1>Средства для ухода</h1>
         <div class="breadcrumps">
         <ul>
             <li>
@@ -50,7 +50,8 @@
         </ul>
         </div>
         <div class="side-menu">
-            <h2>Производитель</h2>
+         <form method="get">
+            <h2>Производитель:</h2> <!--не совсем уверен, что сюда подходит именно заголовок-->
             <input type="checkbox" name="question-one" id="qstn-1" checked>
               <label for="qstn-1">Baxter of California</label>
             <br>
@@ -68,50 +69,43 @@
             <br>
             <input type="checkbox" name="question-six" id="qstn-6" checked>
               <label for="qstn-6">American Crew</label>
+            <h2>Группы товаров:</h2>
+            <input type="radio" name="group-1" id="qstn-7">
+             <label for="qstn-7">Бритвенные принадлежности</label>
+            <br> 
+            <input type="radio" name="group-2" id="qstn-8" checked>
+             <label for="qstn-8">Средства для ухода</label>
+            <br>
+            <input type="radio" name="group-3" id="qstn-9">
+             <label for="qstn-9">Аксессуары</label>
+            <br>
+            <a href="#">Показать</a>
+         </form>
         </div>
-        <div class="side-menu2">
-        <h2>Группы товаров</h2>
-        <input type="checkbox" name="group-1" id="qstn-7">
-        <label for="qstn-7">Бритвенные принадлежности</label>
-        <br> 
-        <input type="checkbox" name="group-2" id="qstn-8" checked>
-        <label for="qstn-8">Средства для ухода</label>
-        <br>
-        <input type="checkbox" name="group-3" id="qstn-9">
-        <label for="qstn-9">Аксессуары</label>
-        <br>
-        <a href="#">Показать</a>
-        </div>
-        <div class="photo">
-           <a href="#"><img src="#" alt="" href="#"></a>
-           Набор для путешествий "Baxter of California"
+        <div class="catalogue">
+           <h2><a href="#"><img src="#" alt=""><span class="category">Набор для путешествий</span><span class="product-name">"Baxter of California"</span></a></h2>
            <br>
-           2 900 руб.
+           <b>2 900 руб.</b>
            <a href="#">Купить</a>
-           <a href="#"><img src="#" alt=""></a>
-           Увлажняющий кондиционер "Baxter of California"
+           <h2><a href="#"><img src="#" alt=""><span class="category">Увлажняющий кондиционер</span><span class="product-name">"Baxter of California"</span></a></h2>
            <br>
-           750 руб.
+           <b>750 руб.</b>
            <a href="#">Купить</a>
-           <a href="#"><img src="#" alt=""></a>
-           Гель для волос "Suavecito"
+           <h2><a href="#"><img src="#" alt=""><span class="category">Гель для волос</span><span class="product-name">"Suavecito"</span></a></h2>
            <br>
-           290 руб.
+           <b>290 руб.</b>
            <a href="#">Купить</a>
-           <a href="#"><img src="#" alt=""></a>
-           Гель для укладки волос "American Crew"
+           <h2><a href="#"><img src="#" alt=""><span class="category">Гель для укладки волос</span><span class="product-name">"American Crew"</span></a></h2>
            <br>
-           500 руб.
+           <b>500 руб.</b>
            <a href="#">Купить</a>
-           <a href="#"><img src="#" alt=""></a>
-           Гель для волос "American Crew"
+           <h2><a href="#"><img src="#" alt=""><span class="category">Гель для волос</span><span class="product-name">"American Crew"</span></a></h2>
            <br>
-           300 руб.
+           <b>300 руб.</b>
            <a href="#">Купить</a>
-           <a href="#"><img src="#" alt=""></a>
-           Набор для бритья "Baxter of California"
+           <h2><a href="#"><img src="#" alt=""><span class="category">Набор для бритья</span><span class="product-name">"Baxter of California"</span></a></h2>
            <br>
-           3900 руб.
+           <b>3900 руб.</b>
            <a href="#">Купить</a>
         </div>
         <div class="pages">
@@ -136,7 +130,7 @@
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
     		</section>
     		<section class="footer-copyright">
-                    <p>Разработано!</p>
+              <p>Разработано!</p>
     			<a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
     		</section>
     	</div>
